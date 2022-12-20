@@ -119,7 +119,7 @@ const Sidebar = () => {
           <Box paddingLeft={isCollapsed ? undefined : "10%"}>
             <Item
               title="Dashboard"
-              to="/dashboard/"
+              to="/react-dashboard"
               icon={<HomeOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -134,21 +134,21 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Manage Team"
-              to="/dashboard/team"
+              to="/react-dashboard/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Contacts Information"
-              to="/dashboard/contacts"
+              to="/react-dashboard/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Invoices Balances"
-              to="/dashboard/invoices"
+              to="/react-dashboard/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -163,21 +163,21 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Profile Form"
-              to="/dashboard/form"
+              to="/react-dashboard/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Calendar"
-              to="/dashboard/calendar"
+              to="/react-dashboard/calendar"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="FAQ Page"
-              to="/dashboard/faq"
+              to="/react-dashboard/faq"
               icon={<HelpOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -192,28 +192,28 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Bar Chart"
-              to="/dashboard/bar"
+              to="/react-dashboard/bar"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Pie Chart"
-              to="/dashboard/pie"
+              to="/react-dashboard/pie"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Line Chart"
-              to="/dashboard/line"
+              to="/react-dashboard/line"
               icon={<TimelineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Geography Chart"
-              to="/dashboard/geography"
+              to="/react-dashboard/geography"
               icon={<MapOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
