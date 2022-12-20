@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+This dashboard was developed in React based on @ed-roh React Admin Dashboard App:
+https://youtu.be/wYpCWwD1oz0
+https://github.com/ed-roh/react-admin-dashboard
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
